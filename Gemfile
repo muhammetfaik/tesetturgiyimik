@@ -32,6 +32,7 @@ gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
+#gem 'aws-sdk', '< 2.0'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
@@ -70,7 +71,6 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'aws-sdk', '< 2.0'
 
 
 gem "solidus_auth_devise", "~> 2.5"
