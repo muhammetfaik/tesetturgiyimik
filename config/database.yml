@@ -81,4 +81,4 @@ test:
 #
 production:
   <<: *default
-  DATABASE_URL: postgres://yhbcamdfbxwqwx:dc6e93a08ec1306975ad4c7203c84b37359ff3542d9fe0bb855c1f0f2c2d7ecd@ec2-54-160-109-68.compute-1.amazonaws.com:5432/d6vqdkrt1a9oof
+  DATABASE_URL: "postgres://yhbcamdfbxwqwx:dc6e93a08ec1306975ad4c7203c84b37359ff3542d9fe0bb855c1f0f2c2d7ecd@ec2-54-160-109-68.compute-1.amazonaws.com:5432/d6vqdkrt1a9oof"
