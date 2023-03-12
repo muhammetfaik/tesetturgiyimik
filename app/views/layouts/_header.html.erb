@@ -5,7 +5,7 @@
   <div class="header__primary-navigation">
     <div class="category-navigation">
       <% categories = taxonomies.first %>
-
+      <!-- HEADER DEĞİŞTİRİLECEK -->
       <nav class="categories">
         <% cache [I18n.locale, categories, taxon] do %>
           <%= render(TaxonsTreeComponent.new(
